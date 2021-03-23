@@ -1,3 +1,15 @@
+/*FONTS*/
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(SourceCodePro-Medium.ttf);
+}
+/***********/
+
+h1{
+  font-family: SourceCodePro-Medium;
+  background: white;
+}
 body{
     display: flex;
     justify-content: center;
@@ -5,10 +17,42 @@ body{
 
 }
 #container{
-
+  position: relative;
+  top: 100px;
+  width: 500px;
 }
 
 #content-box{
-  backgroound: white;
+  background:white;
   padding: 15px;
+  margin-bottom: 15px;
+}
+
+#hero-image{
+  display: flex;
+  justify-content: center;
+}
+
+#hero-image img{
+  width: 250px;
+  height: 250px;
+}
+
+ul{
+  position: relative;
+  margin-bottom: 12px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: left;
+}
+
+a{
+  text-decoration: none;
+  background: white;
+  padding: 15px;
+}
+
+a:hover{
+  background: grey;
 }
