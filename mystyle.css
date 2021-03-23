@@ -1,21 +1,33 @@
 /*FONTS*/
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: SourceCodePro;
   src: url(SourceCodePro-Medium.ttf);
 }
+
+@font-face {
+  font-family: SourceCodePro2;
+  src: url(SourceCodePro-BlackItalic.ttf);
+}
+
 /***********/
 
 h1{
   font-family: SourceCodePro-Medium;
-  background: white;
+  background: tan;
 }
 body{
     display: flex;
     justify-content: center;
-    background: tan;
-
+    background: repeating-linear-gradient(
+  45deg,
+  #ff8080,
+  #ff8080 10px,
+  #ff9999 10px,
+  #ff9999 20px
+);
 }
+
 #container{
   position: relative;
   top: 100px;
@@ -23,7 +35,7 @@ body{
 }
 
 #content-box{
-  background:white;
+  background:tan;
   padding: 15px;
   margin-bottom: 15px;
 }
@@ -40,19 +52,25 @@ body{
 
 ul{
   position: relative;
-  margin-bottom: 12px;
+  margin: 40px;
   list-style-type: none;
   padding: 0px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
+}
+
+li{
+  margin: 10px;
 }
 
 a{
+  font-family: SourceCodePro-Black;
   text-decoration: none;
-  background: white;
-  padding: 15px;
+  padding: 5px;
+  color: #FFF;
 }
 
 a:hover{
-  background: grey;
+  background: #CCC;
+  color:#000;
 }
