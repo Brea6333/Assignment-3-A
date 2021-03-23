@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: tan;
+
+}
+#container{
+
+}
+
+#content-box{
+  backgroound: white;
+  padding: 15px;
+}
