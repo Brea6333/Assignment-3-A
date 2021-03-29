@@ -27,6 +27,15 @@ body{
   #ffe6cc 20px
 );
 }
+#anime{
+  display:flex;
+  justify-content: center;
+}
+#anime img{
+  width:250px;
+  height:250px;
+}
+
 
 #container{
   position: relative;
@@ -51,13 +60,163 @@ body{
   height: 250px;
 }
 
+
+
+ul{
+  position: relative;
+  margin: 40px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#clove {
+	overflow: hidden;
+}
+#clove figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#clove figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes clove {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+#hell {
+	overflow: hidden;
+}
+#hell figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#hell figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes hell {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+
+#blh {
+	overflow: hidden;
+}
+#blh figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#blh figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes blh {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
 #slider {
 	overflow: hidden;
 }
 #slider figure {
 	position: relative;
 	width: 500%;
-	margin: 0;
+	margin: 10px;
 	left: 0;
 	animation: 20s slider infinite;
 }
@@ -95,38 +254,52 @@ body{
 		left: -400%;
 	}
 }
-ul{
-  position: relative;
-  margin: 40px;
-  list-style-type: none;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
+
+#SunK {
+	overflow: hidden;
+}
+#SunK figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#SunK figure img {
+	width: 20%;
+	float: left;
 }
 
-#kazu-image img{
-  width:475px;
-  height:300px;
+@keyframes SunK {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
 }
 
-#hellsing-image img{
-  width:475px;
-  height:590px;
-}
-
-#Bleach-image img{
-  width: 475px;
-}
-
-#berserk-image img{
-  width:475px;
-  height:520px;
-}
-
-#SK-rock-image img{
-  width:475px;
-  height:600px;
-}
 li{
   margin: 10px;
 }
