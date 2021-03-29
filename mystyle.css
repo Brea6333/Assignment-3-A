@@ -51,6 +51,50 @@ body{
   height: 250px;
 }
 
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
 ul{
   position: relative;
   margin: 40px;
@@ -60,6 +104,29 @@ ul{
   justify-content: center;
 }
 
+#kazu-image img{
+  width:475px;
+  height:300px;
+}
+
+#hellsing-image img{
+  width:475px;
+  height:590px;
+}
+
+#Bleach-image img{
+  width: 475px;
+}
+
+#berserk-image img{
+  width:475px;
+  height:520px;
+}
+
+#SK-rock-image img{
+  width:475px;
+  height:600px;
+}
 li{
   margin: 10px;
 }
@@ -68,7 +135,7 @@ a{
   font-family: SourceCodePro-Black;
   text-decoration: none;
   padding: 5px;
-  color: #FFF;
+  color: red;
 }
 
 a:hover{
